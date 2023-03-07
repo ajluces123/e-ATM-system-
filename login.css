@@ -1,0 +1,114 @@
+body {
+    font-size: 15pt;
+    font-family: sans-serif;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  color:#6171F9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: -30px;
+}
+.form {
+width: 40%;
+position: absolute;
+}
+h3 {
+  font-weight: 350;
+  display: flex;
+  font-size: 15px;
+  flex-direction: row;
+}
+h3:before, h3:after {
+ content: "";
+ flex: 1 1;
+ margin:auto;
+ margin-left: 10px;
+ margin-right: 10px;
+ border-bottom: 1px solid black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.label {
+  font-size: 17px;
+    font-weight: 400;
+
+}
+.fbtn,.gbtn {
+  padding:0 10px 0 10px;
+}
+.form input {
+  padding:8px;
+  margin:10px 0 10px 0;
+}
+form button {
+    background-image: linear-gradient(to left, #6171F9, #61C3F9);
+  color:#FFFFFF;
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+}
+.fbtn button {
+color:white;
+padding:20px;
+width:100%;
+margin-top: 10px;
+Height: 15px;
+text-decoration: none;
+font-weight: 600px;
+display: flex;
+justify-content: center;
+z-index: 1;
+border:none;
+align-items: center;
+font-size: 15px;
+background-color: #007FD8;
+}
+.gbtn button {
+color:white;
+padding:20px;
+border:none;
+width:100%;
+margin-top: 10px;
+Height: 15px;
+text-decoration: none;
+font-weight: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+background-color: #E34F4F;
+}
+form img {
+  width: 50%;
+}
+.fbtn button:hover {
+  background-color: #005D9F;
+  transition: .3s;
+}
+.text p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 350;
+}
+.text a {
+  z-index: 1;
+  text-decoration: none;
+  margin-left: 5px;
+    color:#7C4CFE;
+
+}
+@media screen and (max-width: 700px) {
+  .form {
+    width: 100%;
+  }
+}
